@@ -1,0 +1,126 @@
+body {
+    font-family: Arial;
+  background-color: black;
+  
+  }
+  .topnav
+  {
+      
+      overflow: hidden;
+      border-style: solid;
+      border-color: darkred;
+  }
+ .topnav a
+ {
+     display: flex;
+    float: left;
+    color: darkorange;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+  .planet{
+      opacity: 0.2;
+     
+    }
+    .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      /* Control the left side */
+      .left {
+        left: 0;
+        background-color: #111;
+      }
+      
+      /* Control the right side */
+      .right {
+        right: 0;
+        background-color: red;
+      }
+      
+      /* If you want the content centered horizontally and vertically */
+     
+    .centered {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: monospace;
+        font-size: 60px;
+        
+    }
+
+    .card
+    {
+        background-color: black;
+        color: cornsilk;
+        border-style: solid;
+        border-width: 5px;
+        border-color: darkred;
+    }
+
+    .button1
+    {
+        
+        background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .button2 {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button1:hover
+    {
+        background-color: black;
+
+    }
+
+    .button2:hover{
+        background-color: black;
+    }
+    coloured
+    {
+        color: white;
+    }
+    card-group{
+
+        font-family: monospace;
+    }
